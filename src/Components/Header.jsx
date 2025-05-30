@@ -1,9 +1,9 @@
 import React from "react";
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import { ChevronDownIcon, ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 function Header() {
   return (
-    <div className="flex flex-row justify-between items-center">
+    <div className="flex flex-row justify-between items-center mx-16">
       <div className="font-bold text-xl flex flex-col text-gray-700 ">
         <span>The</span>
         <span>Organic</span>

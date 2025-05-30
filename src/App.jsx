@@ -1,10 +1,12 @@
+import Body from "./Components/Body";
 import Header from "./Components/Header";
 
 function App() {
   return (
     <>
-      <div className="font-Montserrat mx-16 my-4">
+      <div className="font-Montserrat  my-4">
         <Header />
+        <Body/>
       </div>
     </>
   );
