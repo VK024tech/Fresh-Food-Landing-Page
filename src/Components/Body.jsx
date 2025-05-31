@@ -201,23 +201,76 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="text-[clamp(24px,2rem+2vw,72px)]  font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,24px)] bg-amber-200 ">
-        <div className="grid mb-12  md:grid-rows-1 md:grid-cols-18 gap-0 md:gap-8 [grid-template-rows:1fr_auto]">
-          <div className="col-span-12   col-start-2 leading-tight">
-            Pro-consumer from the start
-            <div className="text-lg sm:text-2xl pt-8 font-medium pb-8">
-              We tirelessly champion the purest, most ethical food practices,
-              rigorously vetting every source to ensure your table is always
-              filled with trusted goodness.
+      <div className="text-[clamp(30px,2rem+2vw,44px)]  font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,94px)] bg-amber-200 ">
+        <div className="grid  grid-cols-18 [grid-template-rows:auto_auto] py-8">
+          <div className="grid mb-8 col-start-1 md:col-start-2 col-span-full  md:grid-rows-1 md:grid-cols-18 gap-0 md:gap-8 [grid-template-rows:1fr_auto]">
+            <div className="col-span-12    leading-tight">
+              Pro-consumer from the start
+              <div className="text-lg sm:text-2xl pt-8 font-medium pb-8">
+                We tirelessly champion the purest, most ethical food practices,
+                rigorously vetting every source to ensure your table is always
+                filled with trusted goodness.
+              </div>
             </div>
           </div>
-          <a
-            href=""
-            className="text-xl h-fit  row-start-2 md:row-start-1 font-semibold group flex  md:pt-4 items-start col-start-2   md:col-start-17 col-span-9 "
-          >
-            News and Updates
-            <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4  group-hover:text-orange-500 transition-all ease-in-out duration-300" />
-          </a>
+          <div className="grid md:grid-cols-3 gap-8 md:grid-rows-2 col-start-1 md:col-start-2 row-start-2 col-span-16">
+            <div className="text-sm md:text-xl   flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">
+                  5+ Collaborative Initiatives
+                </div>
+                launched to strengthen local food ecosystems and support ethical
+                growing practices
+              </div>
+            </div>
+            <div className="text-sm md:text-xl   flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">Over 7,500 Insights</div>
+                gathered from our community of eaters, shaping how we source and
+                share fresh produce.
+              </div>
+            </div>
+            <div className="text-sm md:text-xl   flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">
+                  40 Workshops and Training Sessions
+                </div>
+                hosted for local growers and aspiring food producers, investing
+                in the future of sustainable food.
+              </div>
+            </div>
+            <div className="text-sm md:text-xl  flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">
+                  15+ Local Partnerships
+                </div>
+                forged with community gardens and food access programs, ensuring
+                more fresh food reaches those who need it.
+              </div>
+            </div>
+            <div className="text-sm md:text-xl   flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">
+                  3 Seasons of "Fresh Finds" Guides
+                </div>
+                published, offering tips, recipes, and stories to help you make
+                the most of seasonal produce.
+              </div>
+            </div>
+            <div className="text-sm md:text-xl  flex">
+              <div className="bg-cyan-800 h-full w-2 "></div>
+              <div className="ml-4">
+                <div className="text-2xl md:text-3xl">Over 200 Enthusiasts</div>
+                hosted at our cooking demonstrations and farm-to-table learning
+                events, celebrating the joy of real food.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
