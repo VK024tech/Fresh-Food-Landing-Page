@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="font-Montserrat  my-4">
-        <Header />
+        {/* <Header /> */}
         <Body/>
       </div>
     </>

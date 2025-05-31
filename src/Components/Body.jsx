@@ -3,17 +3,21 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 import freshVegetables from "../assets/Images/pictureThird.jpg";
 import kitchen from "../assets/Images/pictureFirst.jpg";
 import landscape from "../assets/Images/Landscape.jpg";
+import food from "../assets/Images/food.jpg";
+import health1 from "../assets/Images/Health1.jpg";
+import health2 from "../assets/Images/Health2.jpg";
+import health3 from "../assets/Images/Health3.jpg";
 
 function Body() {
   return (
     <div className="[&>*]:text-gray-800 ">
-      <div className="py-24  grid grid-cols-18 gap-8 items-center  px-16">
-        <div className="text-7xl font-semibold col-span-9">
+      <div className="  grid md:grid-cols-18  gap-0 md:gap-8 lg:grid-rows-1   items-center  px-[clamp(20px,1rem+2vw,64px)] py-[clamp(20px,1rem+2vw,96px)] [grid-template-rows:auto_1fr]">
+        <div className="text-[clamp(24px,2rem+2vw,72px)] lg:row-start-1 row-start-2 font-semibold col-span-18 lg:col-span-9">
           <div className="mb-6 leading-tight">
             Together, we're growing a fresher, healthier future with organic
             food.
           </div>
-          <div className="text-2xl font-medium">
+          <div className="text-lg sm:text-2xl  font-medium">
             Empowering healthier choices, we champion fresh, organic food to put
             Oregon's people and planet first.
           </div>
@@ -26,10 +30,10 @@ function Body() {
           </a>
         </div>
         <div className="col-span-1"></div>
-        <div className="grid grid-cols-2 gap-4 col-span-8">
-          <div className="flex gap-8 mb-4 ">
+        <div className="grid grid-cols-2 gap-4   col-span-17 lg:col-span-8">
+          <div className="flex  gap-8 mb-4 ">
             <img
-              className="rounded-full w-xl"
+              className="rounded-full w-xl "
               src={freshVegetables}
               alt="Fresh vegetable"
             />
@@ -40,49 +44,180 @@ function Body() {
             />
           </div>
           <img
-            className="rounded-4xl col-span-2  "
+            className="rounded-4xl col-span-2  hidden lg:block"
             src={landscape}
             alt="Fresh vegetable"
           />
         </div>
       </div>
       <div>
-        <div className="text-7xl font-medium flex flex-col items-center px-16 py-24  bg-[#EDEAE2]">
-          <div className="py-16">
-            <div className="text-center leading-tight max-w-6xl pb-8">
-              A safer, more equitable, and stronger future with fresh, organic
-              food for all.
+        <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,24px)]  bg-[#EDEAE2]">
+          <div className=" py-[clamp(20px,1rem+2vw,48px)] grid md:grid-cols-18 gap-0 md:gap-8">
+            <div className="col-span-16 col-start-2 ">
+              <div className="text-center leading-tight max-w-6xl pb-8">
+                A safer, more equitable, and stronger future with fresh, organic
+                food for all.
+              </div>
+              <div className="text-lg sm:text-2xl  font-medium pb-16 text-center">
+                When we unite to demand fresh, organic food, we create a
+                healthier future for all. Join us.
+              </div>
+              <img
+                className="rounded-2xl pb-2 mx-auto w-2xl "
+                src={food}
+                alt="Fresh vegetable"
+              />
             </div>
-            <div className="text-2xl font-medium pb-16">
-              When we unite to demand fresh, organic food, we create a healthier
-              future for all. Join us.
-            </div>
-            <iframe
-            className="mx-auto"
-              width="980"
-              height="520"
-              src="https://www.youtube.com/embed/f-XIt9dMGlg?si=eSmmV9DIjOVDFQL-&amp;start=261"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
           </div>
 
-          <div>
-            <div className="text-2xl font-semibold pb-4 text-cyan-800">
-              Putting Health First
-            </div>
-            <div className="text-left leading-tight max-w-6xl pb-8">
-              Good health, joy, and economic opportunities
-            </div>
-            <div className="text-2xl font-medium pb-16">
-              OCJ is on a mission to advance consumers’ rights, growing a
-              justice movement that puts people at the center so that all of us
-              have the freedom to live a life of dignity and abundance.
+          <div className="grid md:grid-cols-18 gap-0 md:gap-8 ">
+            <div className="col-span-16 col-start-2 ">
+              <div className="text-lg sm:text-2xl font-semibold pb-2 text-cyan-800">
+                Putting Health First
+              </div>
+              <div className="text-left leading-tight text-[clamp(24px,2rem+2vw,72px)] max-w-6xl pb-8">
+                Freshness that Feeds Health, Happiness, and Home
+              </div>
+              <div className="text-lg sm:text-2xl font-medium pb-16">
+                Dedicated to advancing access to fresh, real food, we're
+                fostering a movement centered on people, ensuring everyone has
+                the freedom to live a life of health, joy, and true abundance
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="text-[clamp(24px,2rem+2vw,72px)]  font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,24px)] ">
+        <div className="grid mb-12  md:grid-rows-1 md:grid-cols-18 gap-0 md:gap-8 [grid-template-rows:1fr_auto]">
+          <div className="col-span-12   col-start-2 leading-tight">
+            Don’t miss out on your health
+            <div className="text-lg sm:text-2xl pt-8 font-medium pb-8">
+              Stay fresh with us! Explore our latest harvests, healthy tips,
+              community events, and resources for vibrant living
+            </div>
+          </div>
+          <a
+            href=""
+            className="text-xl h-fit  row-start-2 md:row-start-1 font-semibold group flex  md:pt-4 items-start col-start-2   md:col-start-17 col-span-9 "
+          >
+            News and Updates
+            <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4  group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+          </a>
+        </div>
+        <div className="grid  lg:grid-cols-20  gap-8">
+          <div className="lg:col-start-2 col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={health1}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-sm sm:text-lg font-semibold pb-2 text-cyan-800">
+                Freshness with Integrity • Privacy with Purpose
+              </div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Nourishing Lives, Cultivating Trust
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                At our core, we believe in Nourishing Lives, Cultivating Trust.
+                Every fruit, vegetable, and wholesome ingredient we offer is
+                selected to fuel your body and bring joy to your table. But our
+                mission goes deeper: it's about building genuine trust through
+                transparent practices, connecting you directly to the dedicated
+                growers and ethical sources behind your food. We're here to
+                ensure every bite supports your well-being, strengthens our
+                community, and fosters a truly dependable food experience for
+                everyone.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
+            </div>
+          </div>
+          <div className=" col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={health2}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-sm sm:text-lg font-semibold pb-2 text-cyan-800">
+                Freshness with Integrity • Privacy with Purpose
+              </div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Your Privacy, Our Promise
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                We believe in the power of wholesome goodness – from the quality
+                products we offer to the connections we build. Our commitment is
+                to foster a space where you can confidently explore options that
+                nourish your life and contribute to a healthier, more vibrant
+                community. It's about bringing you closer to what truly matters,
+                every step of the way.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
+            </div>
+          </div>
+          <div className=" col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={health3}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-sm sm:text-lg font-semibold pb-2 text-cyan-800">
+                Freshness with Integrity • Privacy with Purpose
+              </div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Your Well-being: Fresh Food, Trusted Privacy
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                We get it: in today's world, knowing who you can trust is
+                everything. That's why we're committed to Nourishing Lives with
+                the freshest food, while also Cultivating Trust in every
+                interaction. We promise transparency in our sourcing and a
+                secure approach to your personal information, ensuring your
+                peace of mind is always on the menu.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-[clamp(24px,2rem+2vw,72px)]  font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,24px)] bg-amber-200 ">
+        <div className="grid mb-12  md:grid-rows-1 md:grid-cols-18 gap-0 md:gap-8 [grid-template-rows:1fr_auto]">
+          <div className="col-span-12   col-start-2 leading-tight">
+            Pro-consumer from the start
+            <div className="text-lg sm:text-2xl pt-8 font-medium pb-8">
+              We tirelessly champion the purest, most ethical food practices,
+              rigorously vetting every source to ensure your table is always
+              filled with trusted goodness.
+            </div>
+          </div>
+          <a
+            href=""
+            className="text-xl h-fit  row-start-2 md:row-start-1 font-semibold group flex  md:pt-4 items-start col-start-2   md:col-start-17 col-span-9 "
+          >
+            News and Updates
+            <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4  group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+          </a>
         </div>
       </div>
     </div>
