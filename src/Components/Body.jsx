@@ -370,6 +370,49 @@ function Body() {
           </div>
         </div>
       </div>
+      <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#A0C654]">
+        <div className="grid md:grid-cols-18 my-8 gap-0 md:gap-8 ">
+          <div className="col-span-10 col-start-2 ">
+            <div className="text-sm sm:text-xl font-semibold pb-1 text-cyan-800">
+              From Farm to Your Plate
+            </div>
+            <div className="text-left leading-tight text-[clamp(30px,2rem+2vw,47px)] max-w-6xl pb-4">
+              Transparent Sourcing & Ethics
+            </div>
+            <div className="text-lg sm:text-2xl font-medium pb-4">
+              Giving you clarity on where your food comes from, how it's grown,
+              and if it aligns with your values.
+            </div>
+            <a
+              href=""
+              className="text-xl font-semibold group flex items-center mt-2 "
+            >
+              Our Priorties
+              <ArrowLongRightIcon className="size-8 ml-2  group-hover:ml-4  transition-all ease-in-out duration-300" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#fb8686]">
+        <div className="grid md:grid-cols-18 my-8 gap-0 md:gap-8 ">
+          <div className="col-span-full col-start-2 ">
+            <div className="text-sm sm:text-xl font-semibold pb-1 text-center">
+              We're Here to Help
+            </div>
+            <div className="leading-tight text-[clamp(30px,2rem+2vw,47px)] max-w-6xl pb-4 text-center">
+              Something on your mind?
+            </div>
+            <div className="text-lg sm:text-2xl font-medium pb-4 text-center">
+              Have a question about fresh produce, a tip for a healthy recipe,
+              or an idea to strengthen our food community? We'd love to hear
+              from you.
+            </div>
+            <button className="hover:bg-blue-950 font-medium flex hover:text-white p-2 border-2 text-sm sm:text-xl mx-auto hover:border-blue-950 px-5 rounded-full  text-blue-950 cursor-pointer transition-all ease-in-out duration-100">
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
