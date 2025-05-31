@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 function Footer() {
   return (
-    <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col   px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#042A42] text-white">
+    <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col   px-[clamp(20px,1rem+2vw,16px)] pt-[clamp(20px,1rem+2vw,74px)] pb-4  bg-[#042A42] text-white">
       <div className="grid   md:grid-cols-14  gap-8">
         <div className="text-xl leading-tight col-span-2 max-w-31">
           The Organic Food
