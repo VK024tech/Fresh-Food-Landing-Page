@@ -7,6 +7,9 @@ import food from "../assets/Images/food.jpg";
 import health1 from "../assets/Images/Health1.jpg";
 import health2 from "../assets/Images/Health2.jpg";
 import health3 from "../assets/Images/Health3.jpg";
+import community from "../assets/Images/community.jpg";
+import integrity from "../assets/Images/integrity.jpg";
+import advocacy from "../assets/Images/advocacy.jpg";
 
 function Body() {
   return (
@@ -269,6 +272,100 @@ function Body() {
                 hosted at our cooking demonstrations and farm-to-table learning
                 events, celebrating the joy of real food.
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-[clamp(24px,2rem+2vw,72px)]  font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,24px)] ">
+        <div className="grid my-12  md:grid-rows-1 md:grid-cols-18 gap-0 md:gap-8 [grid-template-rows:1fr_auto]">
+          <div className="col-span-12   col-start-2 leading-tight">
+            Your health, Our priority
+            <div className="text-lg sm:text-2xl pt-8 font-medium pb-8">
+              We believe that the right to nourishing, trustworthy food is
+              fundamental for everyone. Through championing ethical sourcing,
+              fostering vibrant community connections, and upholding rigorous
+              quality standards, we ensure every bite is reliably safe, and that
+              you are empowered with the knowledge to make truly informed
+              choices about the food that fuels your life.
+            </div>
+          </div>
+          <a
+            href=""
+            className="text-xl h-fit  row-start-2 md:row-start-1 font-semibold group flex  md:pt-4 items-start col-start-2   md:col-start-17 col-span-9 "
+          >
+            What we do
+            <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4  group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+          </a>
+        </div>
+        <div className="grid  lg:grid-cols-20  gap-8">
+          <div className="lg:col-start-2 col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={advocacy}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Policy and Advocacy
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                We champion ethical sourcing and an equitable food system where
+                every producer is valued and every consumer can make informed
+                choices.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2  group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
+            </div>
+          </div>
+          <div className=" col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={community}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Community Engagement
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                We provide resources and foster connections for everyone to know
+                and exercise their right to fresh, trustworthy food.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
+            </div>
+          </div>
+          <div className=" col-span-6">
+            <img
+              className="rounded-4xl pb-2  w-2xl "
+              src={integrity}
+              alt="Fresh vegetable"
+            />
+            <div>
+              <div className="text-left leading-tight text-[clamp(18px,2rem+2vw,32px)] max-w-6xl pb-4">
+                Food Integrity
+              </div>
+              <div className="text-sm sm:text-[18px] font-medium ">
+                We safeguard food quality and expand access to pure, wholesome
+                ingredients for all.
+              </div>
+              <a
+                href=""
+                className="text-xl font-semibold group flex items-center mt-4 "
+              >
+                Learn More
+                <ArrowLongRightIcon className="size-8 ml-2 group-hover:ml-4 group-hover:text-orange-500 transition-all ease-in-out duration-300" />
+              </a>
             </div>
           </div>
         </div>
