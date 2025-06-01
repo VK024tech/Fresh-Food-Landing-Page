@@ -399,7 +399,7 @@ function Body() {
             <div className="text-sm sm:text-xl font-semibold pb-1 text-center">
               We're Here to Help
             </div>
-            <div className="leading-tight text-[clamp(30px,2rem+2vw,47px)] max-w-6xl pb-4  text-center">
+            <div className="leading-tight text-[clamp(30px,2rem+2vw,47px)]  pb-4  text-center">
               Something on your mind?
             </div>
             <div className="text-lg sm:text-2xl font-medium pb-4 text-center">
