@@ -14,7 +14,7 @@ import advocacy from "../assets/Images/advocacy.jpg";
 function Body() {
   return (
     <div className="[&>*]:text-gray-800 ">
-      <div className="  grid md:grid-cols-18  gap-0 md:gap-8 lg:grid-rows-1   items-center  px-[clamp(20px,1rem+2vw,64px)] py-[clamp(20px,1rem+2vw,96px)] [grid-template-rows:auto_1fr]">
+      <div className=" bg-[url(./assets/swirl.svg)]  bg-no-repeat  grid md:grid-cols-18  gap-0 md:gap-8 lg:grid-rows-1   items-center  px-[clamp(20px,1rem+2vw,64px)] py-[clamp(20px,1rem+2vw,96px)] [grid-template-rows:auto_1fr]">
         <div className="text-[clamp(24px,2rem+2vw,72px)] lg:row-start-1 row-start-2 font-semibold col-span-18 lg:col-span-9">
           <div className="mb-6 leading-tight">
             Together, we're growing a fresher, healthier future with organic
@@ -370,8 +370,8 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#A0C654]">
-        <div className="grid md:grid-cols-18 my-8 gap-0 md:gap-8 ">
+      <div className="bg-[url(./assets/swirl-arrow-down.svg)] bg-cover bg-no-repeat  text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#A0C654]">
+        <div className=" grid md:grid-cols-18 my-8 gap-0 md:gap-8 ">
           <div className="col-span-10 col-start-2 ">
             <div className="text-sm sm:text-xl font-semibold pb-1 text-cyan-800">
               From Farm to Your Plate
@@ -393,7 +393,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#fb8686]">
+      <div className="bg-[url(./assets/swirl-arrow.svg)] bg-center bg-no-repeat  text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col items-center  px-[clamp(20px,1rem+2vw,16px)] py-[clamp(20px,1rem+2vw,74px)]  bg-[#fb8686]">
         <div className="grid md:grid-cols-18 my-8 gap-0 md:gap-8 ">
           <div className="col-span-full col-start-2 ">
             <div className="text-sm sm:text-xl font-semibold pb-1 text-center">
