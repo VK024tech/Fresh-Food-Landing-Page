@@ -3,11 +3,11 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 function Footer() {
   return (
     <div className="text-[clamp(24px,2rem+2vw,72px)] font-medium flex flex-col   px-[clamp(20px,1rem+2vw,16px)] pt-[clamp(20px,1rem+2vw,74px)] pb-4  bg-[#042A42] text-white">
-      <div className="grid   md:grid-cols-14  gap-8">
-        <div className="text-xl leading-tight col-span-2 max-w-31">
+      <div className="grid    md:[grid-template-cols:auto]  gap-8">
+        <div className="text-xl md:col-start-1  leading-tight md:col-span-2 max-w-31">
           The Organic Food
         </div>
-        <div className="md:col-start-4 col-span-2 ">
+        <div className="md:col-start-4 md:col-span-2 ">
           <div className="text-sm md:text-xl text-green-500 font-semibold pb-4">
             Quick Links
           </div>
@@ -17,7 +17,7 @@ function Footer() {
             Site Accessibility
           </div>
         </div>
-        <div className="md:col-start-8 col-span-2 ">
+        <div className="md:col-start-9 md:col-span-2 ">
           <div className="text-sm md:text-xl text-green-500 font-semibold pb-4">
             Follow Us
           </div>
@@ -27,7 +27,7 @@ function Footer() {
             Instagram
           </div>
         </div>
-        <div className="md:col-start-11 md:col-span-4">
+        <div className="md:col-start-13 md:col-span-4">
           <div className="text-sm md:text-xl  font-semibold pb-4">
             Join Our Mailing List
           </div>

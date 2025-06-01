@@ -115,7 +115,8 @@ function Header() {
 
   return (
     <div className="flex flex-row justify-between items-center px-[clamp(20px,1rem+2vw,64px)] my-4">
-      <div className="font-bold text-[clamp(18px,2rem+2vw,24px)] flex flex-col text-gray-700 ">
+      <div className="font-bold  text-[clamp(18px,2rem+2vw,24px)] flex flex-col text-green-800 ">
+        
         <span>The</span>
         <span>Organic</span>
         <span>Food</span>
